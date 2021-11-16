@@ -1,0 +1,20 @@
+[package]
+name = "rust_signal_r_client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = { version = "*"}
+env_logger = { version = "*"}
+serde = { version = "*"}
+openssl-sys = "0.9"
+openssl = "0.10"
+signalr_rs = { version = "*" }
+serde_json = { version = "*" }
+url = { version = "*" }
+base64 = { version = "*" }
+actix-rt = { version = "*" }
+libflate = { version = "*" }
+futures = { version = "*" }

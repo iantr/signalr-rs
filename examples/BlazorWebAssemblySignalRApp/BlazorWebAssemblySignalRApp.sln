@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebAssemblySignalRApp.Server", "BlazorWebAssemblySignalRApp\Server\BlazorWebAssemblySignalRApp.Server.csproj", "{D0DF149C-A96D-4B49-BBC5-DF40B9A40962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebAssemblySignalRApp.Client", "BlazorWebAssemblySignalRApp\Client\BlazorWebAssemblySignalRApp.Client.csproj", "{CB3C866E-C2C2-47C9-B875-0A452C94BFE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebAssemblySignalRApp.Shared", "BlazorWebAssemblySignalRApp\Shared\BlazorWebAssemblySignalRApp.Shared.csproj", "{D0F5C19E-39E0-4C33-AED6-50BF47531A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApp.Console.Client", "SignalRApp.Console.Client\SignalRApp.Console.Client.csproj", "{88902765-0430-46A1-A648-B9B798CD7B4A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EC45FA1B-FC2A-4AF8-87BD-FE98634C49AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DF149C-A96D-4B49-BBC5-DF40B9A40962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DF149C-A96D-4B49-BBC5-DF40B9A40962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DF149C-A96D-4B49-BBC5-DF40B9A40962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DF149C-A96D-4B49-BBC5-DF40B9A40962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3C866E-C2C2-47C9-B875-0A452C94BFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3C866E-C2C2-47C9-B875-0A452C94BFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3C866E-C2C2-47C9-B875-0A452C94BFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3C866E-C2C2-47C9-B875-0A452C94BFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F5C19E-39E0-4C33-AED6-50BF47531A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F5C19E-39E0-4C33-AED6-50BF47531A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F5C19E-39E0-4C33-AED6-50BF47531A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F5C19E-39E0-4C33-AED6-50BF47531A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88902765-0430-46A1-A648-B9B798CD7B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88902765-0430-46A1-A648-B9B798CD7B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88902765-0430-46A1-A648-B9B798CD7B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88902765-0430-46A1-A648-B9B798CD7B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC45FA1B-FC2A-4AF8-87BD-FE98634C49AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC45FA1B-FC2A-4AF8-87BD-FE98634C49AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC45FA1B-FC2A-4AF8-87BD-FE98634C49AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC45FA1B-FC2A-4AF8-87BD-FE98634C49AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A7291DD-4D2F-4941-90D1-B0308DBA1697}
+	EndGlobalSection
+EndGlobal

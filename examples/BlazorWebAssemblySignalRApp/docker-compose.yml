@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  blazorwebassemblysignalrapp.server:
+    image: ${DOCKER_REGISTRY-}blazorwebassemblysignalrappserver
+    build:
+      context: .
+      dockerfile: BlazorWebAssemblySignalRApp/Server/Dockerfile
+
+  blazorwebassemblysignalrapp.client:
+    image: ${DOCKER_REGISTRY-}blazorwebassemblysignalrappclient
+    build:
+      context: .
+      dockerfile: BlazorWebAssemblySignalRApp/Client/Dockerfile
+
